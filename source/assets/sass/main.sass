@@ -1,1 +1,30 @@
 @import 'reset', 'vars', 'mixins', 'base', 'grid', 'typography'
+.hero
+    margin-top: 110px
+    margin-left: 105px
+    @media(min-width: 960px)
+        margin-left: 210px
+    &--title
+        font-family: Galien
+        @include fslh(64, 74)
+        color: #1F3F68
+        padding-bottom: 30px
+    &--text
+        white-space: pre-line
+        width: 425px
+        letter-spacing: 0.05em
+        color: #1F3F68
+        opacity: 0.6
+        padding-bottom: 70px
+    &--button button
+        background: #5A98D0
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2)
+        border-radius: 10px
+        color: #FFFFFF
+        width: 220px
+        height: 56px
+.ilustration
+    float: right
+.logo
+    margin-top: 48px
+    margin-left: 80px
